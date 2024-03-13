@@ -1,0 +1,8 @@
+secretGenerator:
+- name: sonarqube
+  namespace: sonarqube
+  envs:
+  - .env
+resources:
+  - sonarqube.yaml
+  - postgres.yaml
